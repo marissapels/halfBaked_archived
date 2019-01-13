@@ -1,0 +1,46 @@
+{
+  "name": "halfbaked",
+  "version": "1.0.0",
+  "description": "Application that stores and shows your favorite recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:watch": "webpack --watch"
+  },
+  "proxy": "http://localhost:8080",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marissapels/halfBaked.git"
+  },
+  "author": "Marissa Pels",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marissapels/halfBaked/issues"
+  },
+  "homepage": "https://github.com/marissapels/halfBaked#readme",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "file-loader": "^3.0.1",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "react": "^16.7.0",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.7.0",
+    "react-router-dom": "^4.3.1"
+  }
+}
