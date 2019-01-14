@@ -1,0 +1,55 @@
+/* global */
+
+body {
+  margin: 0px;
+  font-family: "Lucida Grande";
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  background: #9a0707;
+  margin: 0px;
+  padding: 15px 10px;
+  color: white;
+  font-style: italic;
+}
+
+h2.subTitle {
+  font-size: 1.2em;
+  background: lightgrey;
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+/* cards */
+.card {
+  max-width: 25em;
+  height: 25em;
+  /* border: solid darkgrey 2px; */
+  margin: 20px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+img.recipeImage {
+  width: 100%;
+  height: 65%;
+  background-size: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.recipeWords {
+  text-align: center;
+  background: #f2f2f2;
+  min-height: 11em;
+  border-radius: 10px;
+}
+
+h3.recipeName {
+  background: #d6d5d5;
+  padding: 10px 0px;
+  margin-top: 0px;
+}

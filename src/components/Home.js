@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import Card from './library/Card';
+import recipes from '../db/recipes';
 
 class Home extends Component {
   constructor(props) {
@@ -8,7 +10,17 @@ class Home extends Component {
   render() {
     return(
       <div className="container">
-        <h2>This is the home page! </h2>
+        <div className="row">
+          {
+            recipes.map(recipe => {
+              return (
+                <div  key={recipe.name} className="col-xs-4 text-center">
+                  <Card recipe={recipe} />
+                </div>
+              )
+            })
+          }
+        </div>
       </div>
     )
   }
