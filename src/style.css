@@ -53,3 +53,30 @@ h3.recipeName {
   padding: 10px 0px;
   margin-top: 0px;
 }
+
+/* recipe */
+.recipeName {
+  text-align: center;
+  font-weight: bold;
+}
+
+.ingredients, .directions {
+  font-size: 1.5em;
+  background: #f5f5f5;
+  min-height: 500px;
+}
+
+.heading {
+  font-weight: bold;
+  background: #94b6c5;
+  color: white;
+  padding: 7px;
+  margin: 20px 0 5px 0;
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+  font-size: 1.3em;
+  text-align: center;
+}
